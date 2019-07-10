@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3738757F22D644B900B7276A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738757E22D644B900B7276A /* AppDelegate.swift */; };
+		3738758122D644B900B7276A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738758022D644B900B7276A /* ViewController.swift */; };
+		3738758422D644B900B7276A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738758222D644B900B7276A /* Main.storyboard */; };
+		3738758622D644BA00B7276A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3738758522D644BA00B7276A /* Assets.xcassets */; };
+		3738758922D644BA00B7276A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738758722D644BA00B7276A /* LaunchScreen.storyboard */; };
+		3738759422D644BA00B7276A /* ToccaChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738759322D644BA00B7276A /* ToccaChallengeTests.swift */; };
+		3738759F22D644BA00B7276A /* ToccaChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738759E22D644BA00B7276A /* ToccaChallengeUITests.swift */; };
+		373875AD22D64B7000B7276A /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373875AC22D64B7000B7276A /* profileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3738759022D644BA00B7276A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3738757322D644B900B7276A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3738757A22D644B900B7276A;
+			remoteInfo = ToccaChallenge;
+		};
+		3738759B22D644BA00B7276A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3738757322D644B900B7276A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3738757A22D644B900B7276A;
+			remoteInfo = ToccaChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3738757B22D644B900B7276A /* ToccaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToccaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738757E22D644B900B7276A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3738758022D644B900B7276A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3738758322D644B900B7276A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3738758522D644BA00B7276A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3738758822D644BA00B7276A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3738758A22D644BA00B7276A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3738758F22D644BA00B7276A /* ToccaChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToccaChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738759322D644BA00B7276A /* ToccaChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToccaChallengeTests.swift; sourceTree = "<group>"; };
+		3738759522D644BA00B7276A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3738759A22D644BA00B7276A /* ToccaChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToccaChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738759E22D644BA00B7276A /* ToccaChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToccaChallengeUITests.swift; sourceTree = "<group>"; };
+		373875A022D644BA00B7276A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373875AC22D64B7000B7276A /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3738757822D644B900B7276A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738758C22D644BA00B7276A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738759722D644BA00B7276A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3738757222D644B900B7276A = {
+			isa = PBXGroup;
+			children = (
+				3738757D22D644B900B7276A /* ToccaChallenge */,
+				3738759222D644BA00B7276A /* ToccaChallengeTests */,
+				3738759D22D644BA00B7276A /* ToccaChallengeUITests */,
+				3738757C22D644B900B7276A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3738757C22D644B900B7276A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3738757B22D644B900B7276A /* ToccaChallenge.app */,
+				3738758F22D644BA00B7276A /* ToccaChallengeTests.xctest */,
+				3738759A22D644BA00B7276A /* ToccaChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3738757D22D644B900B7276A /* ToccaChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				3738757E22D644B900B7276A /* AppDelegate.swift */,
+				3738758022D644B900B7276A /* ViewController.swift */,
+				3738758222D644B900B7276A /* Main.storyboard */,
+				3738758522D644BA00B7276A /* Assets.xcassets */,
+				3738758722D644BA00B7276A /* LaunchScreen.storyboard */,
+				3738758A22D644BA00B7276A /* Info.plist */,
+				373875AC22D64B7000B7276A /* profileViewController.swift */,
+			);
+			path = ToccaChallenge;
+			sourceTree = "<group>";
+		};
+		3738759222D644BA00B7276A /* ToccaChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3738759322D644BA00B7276A /* ToccaChallengeTests.swift */,
+				3738759522D644BA00B7276A /* Info.plist */,
+			);
+			path = ToccaChallengeTests;
+			sourceTree = "<group>";
+		};
+		3738759D22D644BA00B7276A /* ToccaChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3738759E22D644BA00B7276A /* ToccaChallengeUITests.swift */,
+				373875A022D644BA00B7276A /* Info.plist */,
+			);
+			path = ToccaChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3738757A22D644B900B7276A /* ToccaChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373875A322D644BA00B7276A /* Build configuration list for PBXNativeTarget "ToccaChallenge" */;
+			buildPhases = (
+				3738757722D644B900B7276A /* Sources */,
+				3738757822D644B900B7276A /* Frameworks */,
+				3738757922D644B900B7276A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToccaChallenge;
+			productName = ToccaChallenge;
+			productReference = 3738757B22D644B900B7276A /* ToccaChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3738758E22D644BA00B7276A /* ToccaChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373875A622D644BA00B7276A /* Build configuration list for PBXNativeTarget "ToccaChallengeTests" */;
+			buildPhases = (
+				3738758B22D644BA00B7276A /* Sources */,
+				3738758C22D644BA00B7276A /* Frameworks */,
+				3738758D22D644BA00B7276A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3738759122D644BA00B7276A /* PBXTargetDependency */,
+			);
+			name = ToccaChallengeTests;
+			productName = ToccaChallengeTests;
+			productReference = 3738758F22D644BA00B7276A /* ToccaChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3738759922D644BA00B7276A /* ToccaChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373875A922D644BA00B7276A /* Build configuration list for PBXNativeTarget "ToccaChallengeUITests" */;
+			buildPhases = (
+				3738759622D644BA00B7276A /* Sources */,
+				3738759722D644BA00B7276A /* Frameworks */,
+				3738759822D644BA00B7276A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3738759C22D644BA00B7276A /* PBXTargetDependency */,
+			);
+			name = ToccaChallengeUITests;
+			productName = ToccaChallengeUITests;
+			productReference = 3738759A22D644BA00B7276A /* ToccaChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3738757322D644B900B7276A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = " Franklin Smith";
+				TargetAttributes = {
+					3738757A22D644B900B7276A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3738758E22D644BA00B7276A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3738757A22D644B900B7276A;
+					};
+					3738759922D644BA00B7276A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3738757A22D644B900B7276A;
+					};
+				};
+			};
+			buildConfigurationList = 3738757622D644B900B7276A /* Build configuration list for PBXProject "ToccaChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3738757222D644B900B7276A;
+			productRefGroup = 3738757C22D644B900B7276A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3738757A22D644B900B7276A /* ToccaChallenge */,
+				3738758E22D644BA00B7276A /* ToccaChallengeTests */,
+				3738759922D644BA00B7276A /* ToccaChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3738757922D644B900B7276A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738758922D644BA00B7276A /* LaunchScreen.storyboard in Resources */,
+				3738758622D644BA00B7276A /* Assets.xcassets in Resources */,
+				3738758422D644B900B7276A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738758D22D644BA00B7276A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738759822D644BA00B7276A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3738757722D644B900B7276A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738758122D644B900B7276A /* ViewController.swift in Sources */,
+				3738757F22D644B900B7276A /* AppDelegate.swift in Sources */,
+				373875AD22D64B7000B7276A /* profileViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738758B22D644BA00B7276A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738759422D644BA00B7276A /* ToccaChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738759622D644BA00B7276A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738759F22D644BA00B7276A /* ToccaChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3738759122D644BA00B7276A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3738757A22D644B900B7276A /* ToccaChallenge */;
+			targetProxy = 3738759022D644BA00B7276A /* PBXContainerItemProxy */;
+		};
+		3738759C22D644BA00B7276A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3738757A22D644B900B7276A /* ToccaChallenge */;
+			targetProxy = 3738759B22D644BA00B7276A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3738758222D644B900B7276A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3738758322D644B900B7276A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3738758722D644BA00B7276A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3738758822D644BA00B7276A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373875A122D644BA00B7276A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		373875A222D644BA00B7276A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		373875A422D644BA00B7276A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT8Q6BSSF8;
+				INFOPLIST_FILE = ToccaChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me..ToccaChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		373875A522D644BA00B7276A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT8Q6BSSF8;
+				INFOPLIST_FILE = ToccaChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me..ToccaChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		373875A722D644BA00B7276A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT8Q6BSSF8;
+				INFOPLIST_FILE = ToccaChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me..ToccaChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToccaChallenge.app/ToccaChallenge";
+			};
+			name = Debug;
+		};
+		373875A822D644BA00B7276A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT8Q6BSSF8;
+				INFOPLIST_FILE = ToccaChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me..ToccaChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToccaChallenge.app/ToccaChallenge";
+			};
+			name = Release;
+		};
+		373875AA22D644BA00B7276A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT8Q6BSSF8;
+				INFOPLIST_FILE = ToccaChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me..ToccaChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToccaChallenge;
+			};
+			name = Debug;
+		};
+		373875AB22D644BA00B7276A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT8Q6BSSF8;
+				INFOPLIST_FILE = ToccaChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me..ToccaChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToccaChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3738757622D644B900B7276A /* Build configuration list for PBXProject "ToccaChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373875A122D644BA00B7276A /* Debug */,
+				373875A222D644BA00B7276A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373875A322D644BA00B7276A /* Build configuration list for PBXNativeTarget "ToccaChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373875A422D644BA00B7276A /* Debug */,
+				373875A522D644BA00B7276A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373875A622D644BA00B7276A /* Build configuration list for PBXNativeTarget "ToccaChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373875A722D644BA00B7276A /* Debug */,
+				373875A822D644BA00B7276A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373875A922D644BA00B7276A /* Build configuration list for PBXNativeTarget "ToccaChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373875AA22D644BA00B7276A /* Debug */,
+				373875AB22D644BA00B7276A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3738757322D644B900B7276A /* Project object */;
+}

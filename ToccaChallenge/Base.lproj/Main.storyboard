@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JwG-ov-bOf">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Card-->
+        <scene sceneID="oAL-sL-jZT">
+            <objects>
+                <viewController id="yRH-01-AX9" customClass="profileViewController" customModule="ToccaChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NYz-NI-Jjt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Card" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbM-vn-bho">
+                                <rect key="frame" x="145.5" y="56" width="123" height="42.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="31"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIh-Re-n0j">
+                                <rect key="frame" x="93.5" y="124" width="227" height="391"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="Screen Shot 2019-07-10 at 9.32.15 AM">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZY3-T3-g3S">
+                                <rect key="frame" x="115" y="653" width="65" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="Q1n-BD-yzL"/>
+                                    <constraint firstAttribute="height" constant="65" id="era-Jd-Xp4"/>
+                                </constraints>
+                                <state key="normal" image="icons8-plus-48">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLV-eN-Hdz">
+                                <rect key="frame" x="243" y="653" width="66" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="ECk-U1-0HW"/>
+                                    <constraint firstAttribute="height" constant="65" id="yaa-cp-s9Z"/>
+                                </constraints>
+                                <state key="normal" image="icons8-share-rounded-90">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scan QR/BC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K85-MY-WZ8">
+                                <rect key="frame" x="100" y="624" width="97" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="8hP-lH-8Te"/>
+                                    <constraint firstAttribute="height" constant="21" id="vLc-6F-zC7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIi-D7-gEw">
+                                <rect key="frame" x="254" y="623" width="47" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="CjY-xP-u3n"/>
+                                    <constraint firstAttribute="height" constant="21" id="LQt-Re-ZS8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Point other person phone camera to scan QR code" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nz-L9-ARA">
+                                <rect key="frame" x="71.5" y="523" width="271" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="9h2-jl-oTB"/>
+                                    <constraint firstAttribute="width" constant="271" id="nAz-p8-MQy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16470588235294117" green="0.36862745098039218" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kIi-D7-gEw" firstAttribute="top" secondItem="2nz-L9-ARA" secondAttribute="bottom" constant="54" id="8Eu-uf-qVN"/>
+                            <constraint firstItem="tbM-vn-bho" firstAttribute="top" secondItem="v60-qS-Fh7" secondAttribute="top" constant="12" id="9J6-4v-YWm"/>
+                            <constraint firstItem="ZY3-T3-g3S" firstAttribute="top" secondItem="K85-MY-WZ8" secondAttribute="bottom" constant="8" id="9f1-yE-awg"/>
+                            <constraint firstItem="OLV-eN-Hdz" firstAttribute="top" secondItem="kIi-D7-gEw" secondAttribute="bottom" constant="9" id="Dpv-VY-Xdw"/>
+                            <constraint firstItem="2nz-L9-ARA" firstAttribute="top" secondItem="CIh-Re-n0j" secondAttribute="bottom" constant="8" id="ML0-Hb-X3j"/>
+                            <constraint firstItem="v60-qS-Fh7" firstAttribute="bottom" secondItem="ZY3-T3-g3S" secondAttribute="bottom" constant="95" id="PcQ-xE-Udm"/>
+                            <constraint firstItem="v60-qS-Fh7" firstAttribute="trailing" secondItem="kIi-D7-gEw" secondAttribute="trailing" constant="113" id="RdU-3R-SOO"/>
+                            <constraint firstItem="v60-qS-Fh7" firstAttribute="trailing" secondItem="OLV-eN-Hdz" secondAttribute="trailing" constant="105" id="UQn-H2-zVN"/>
+                            <constraint firstItem="CIh-Re-n0j" firstAttribute="centerX" secondItem="NYz-NI-Jjt" secondAttribute="centerX" id="ZgS-fI-JVT"/>
+                            <constraint firstItem="2nz-L9-ARA" firstAttribute="centerX" secondItem="NYz-NI-Jjt" secondAttribute="centerX" id="eLa-6D-vRv"/>
+                            <constraint firstItem="CIh-Re-n0j" firstAttribute="top" secondItem="tbM-vn-bho" secondAttribute="bottom" constant="25.5" id="ebT-pL-c6t"/>
+                            <constraint firstItem="tbM-vn-bho" firstAttribute="centerX" secondItem="NYz-NI-Jjt" secondAttribute="centerX" id="fH7-Wo-tOA"/>
+                            <constraint firstItem="v60-qS-Fh7" firstAttribute="bottom" secondItem="OLV-eN-Hdz" secondAttribute="bottom" constant="95" id="jvc-ja-54H"/>
+                            <constraint firstItem="K85-MY-WZ8" firstAttribute="top" secondItem="2nz-L9-ARA" secondAttribute="bottom" constant="55" id="kHN-20-8rG"/>
+                            <constraint firstItem="K85-MY-WZ8" firstAttribute="leading" secondItem="v60-qS-Fh7" secondAttribute="leading" constant="100" id="ns3-1k-8fH"/>
+                            <constraint firstItem="ZY3-T3-g3S" firstAttribute="leading" secondItem="v60-qS-Fh7" secondAttribute="leading" constant="115" id="pXp-20-q3G"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="v60-qS-Fh7"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Card" image="icons8-customer-24" id="SHG-4y-e2x"/>
+                    <connections>
+                        <outlet property="imageButton" destination="CIh-Re-n0j" id="saN-Kr-45A"/>
+                        <outlet property="plusButton" destination="ZY3-T3-g3S" id="j37-nF-d2V"/>
+                        <outlet property="shareButton" destination="OLV-eN-Hdz" id="3AR-g2-z8n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="awB-mH-skv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876.81159420289862" y="788.83928571428567"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="cBo-l9-9Cq">
+            <objects>
+                <viewController id="G7m-4t-LWu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ms4-SA-27K">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.82954106660000004" green="0.32666925429999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="CsK-Ag-z3P"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="icons8-settings-24" id="V1n-o2-LdH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nJc-3t-JJd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1577" y="789"/>
+        </scene>
+        <!--Contacts-->
+        <scene sceneID="POj-Kf-MEp">
+            <objects>
+                <viewController id="4J9-qt-fSk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v07-xY-z74">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.5" blue="0.096946161140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="RaX-kC-lfp"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="icons8-user-account-24" id="BgW-Fs-hTb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2sC-fk-qd5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="181" y="789"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="UPT-Y6-L7h">
+            <objects>
+                <tabBarController id="JwG-ov-bOf" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pgJ-cm-mdZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4J9-qt-fSk" kind="relationship" relationship="viewControllers" id="aOj-lZ-X8e"/>
+                        <segue destination="yRH-01-AX9" kind="relationship" relationship="viewControllers" id="7Pl-hA-TCW"/>
+                        <segue destination="G7m-4t-LWu" kind="relationship" relationship="viewControllers" id="cgc-BY-NOr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CLO-3w-0Dm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="841" y="111"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2019-07-10 at 9.32.15 AM" width="227" height="391"/>
+        <image name="icons8-customer-24" width="24" height="24"/>
+        <image name="icons8-plus-48" width="24" height="24"/>
+        <image name="icons8-settings-24" width="24" height="24"/>
+        <image name="icons8-share-rounded-90" width="30" height="30"/>
+        <image name="icons8-user-account-24" width="24" height="24"/>
+    </resources>
+</document>
